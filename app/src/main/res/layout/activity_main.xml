@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd700"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/burger" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#83770A"
+        android:backgroundTint="#911F1F"
+        android:text="calculate"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#AC2121"
+        android:gravity="center"
+        android:text="1000cel"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="255dp"
+        android:src="@drawable/fried"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+
+    /> <ImageView
+    android:layout_width="140dp"
+    android:layout_height="255dp"
+    android:src="@drawable/salad"
+    android:layout_alignParentBottom="true"
+    android:scaleType="centerCrop"
+    android:layout_centerHorizontal="true"
+    />
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="255dp"
+        android:src="@drawable/pizza"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+</RelativeLayout>
